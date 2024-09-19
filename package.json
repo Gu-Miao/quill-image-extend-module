@@ -6,7 +6,7 @@
   "module": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyaneee/quill-image-extend-module.git"
+    "url": "git+https://github.com/Miyaneee/quill-image-extend-module.git"
   },
   "keywords": [
     "quill",
@@ -17,7 +17,7 @@
   "author": "nextboy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miyaneee/quill-image-extend-module/issues"
+    "url": "https://github.com/Miyaneee/quill-image-extend-module/issues"
   },
-  "homepage": "https://github.com/miyaneee/quill-image-extend-module#readme"
+  "homepage": "https://github.com/Miyaneee/quill-image-extend-module#readme"
 }

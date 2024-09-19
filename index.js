@@ -1,5 +1,5 @@
 /**
- *@description 观察者模式 全局监听富文本编辑器
+ * @description 观察者模式 全局监听富文本编辑器
  */
 export const QuillWatch = {
   watcher: {}, // 登记编辑器信息
@@ -286,7 +286,7 @@ export function imgHandler() {
 }
 
 /**
- *@description 全部工具栏
+ * @description 全部工具栏
  */
 export const container = [
   ['bold', 'italic', 'underline', 'strike'],
