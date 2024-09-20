@@ -1,11 +1,13 @@
 # quill-image-extend-module
 
-> forked from NextBoy/quill-image-extend-module
+> forked from NextBoy/quill-image-extend-module  
+> 此 fork 对比原仓库添加了校验图片格式的能力，如果上传非图片格式的文件会报错，用户可以通过 `typeError()` 函数自行处理错误。
 
-vue-quill-editor 的增强模块，
+vue-quill-editor 的增强模块。
 
 功能：
 
+- 校验图片格式
 - 提供图片上传到服务器的功能
 - 复制插入
 - 拖拽插入
@@ -94,6 +96,7 @@ const editorOption = {
         // xhr.setRequestHeader('myHeader','myValue')
       }, // 可选参数 设置请求头部
       sizeError: () => {}, // 图片超过大小的回调
+      typeError: () => {}, // 图片格式错误的回调
       start: () => {}, // 可选参数 自定义开始上传触发事件
       end: () => {}, // 可选参数 自定义上传结束触发的事件，无论成功或者失败
       error: () => {}, // 可选参数 上传失败触发的事件
